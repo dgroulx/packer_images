@@ -2,6 +2,7 @@ Templates
 =========
 
 Centos-7_base
+-------
 Minimal install of Centos7 with yum update run. This image has a known
 root password 'vagrant' and is insecure. This way the image is ready
 to go for use as a Vagrant base box. Note that this image has not yet
