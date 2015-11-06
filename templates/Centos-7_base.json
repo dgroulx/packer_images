@@ -1,0 +1,17 @@
+{
+  "description": "CentOS 7 Base Box",
+  "min_packer_version": "0.8.6",
+
+  "builders": [
+    {
+      "type": "vmware-iso",
+      "iso_url": "iso/CentOS-7-x86_64-Minimal-1503-01.iso",
+      "iso_checksum": "d07ab3e615c66a8b2e9a50f4852e6a77",
+      "iso_checksum_type": "md5",
+      "ssh_username": "root",
+      "ssh_password": "vagrant",
+      "shutdown_command": "shutdown -P now",
+      "guest_os_type": "redhat"
+    }
+  ]
+}
